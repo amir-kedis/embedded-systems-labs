@@ -15,13 +15,13 @@
 #include <util/delay.h>
 
 int main(void) {
-  PIN_SET(DDRD, DDD6);
-  PIN_SET(PORTD, PORTD6);
+  PIN_SET(DDRD, PD6);
+  PIN_SET(PORTD, PD6);
 
   while (1) {
-    PIN_SET(PORTD, PORTD6);
+    PIN_SET(PORTD, PD6);
     _delay_ms(1000);
-    PIN_UNSET(PORTD, PORTD6);
+    PIN_UNSET(PORTD, PD6);
     _delay_ms(1000);
   }
 

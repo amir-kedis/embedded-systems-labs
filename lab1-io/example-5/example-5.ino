@@ -1,8 +1,15 @@
 #define F_CPU 16000000UL
 
-#include "pin_macros.h"
 #include <avr/io.h>
 #include <util/delay.h>
+
+
+#define PIN_SET(REG, PIN)       REG |= (1 << PIN)
+#define PIN_UNSET(REG, PIN)     REG &= ~(1 << PIN)
+#define PIN_TOGGLE(REG, PIN)    REG ^= (1 << PIN)
+#define PIN_READ(REG, PIN)      ((REG & (1 << PIN)) >> PIN)
+
+
 
 const uint8_t segments[] = {
     0b00111111, // 0
@@ -30,24 +37,25 @@ int main(void) {
   PORTD = segments[counter];
 
   while (1) {
-    if (PIN_READ(PINC, PC0) == 0) {
+
+    if (PIN_READ(PINC, PC0) == 1) {
       _delay_ms(50);
 
-      if (PIN_READ(PINC, PC0) == 0) {
+      if (PIN_READ(PINC, PC0) == 1) {
         counter++;
         if (counter > 9) {
-          counter = 0;
+          counter = 9;
         }
         PORTD = segments[counter];
       }
     }
 
-    if (PIN_READ(PINC, PC1) == 0) {
+    if (PIN_READ(PINC, PC1) == 1) {
       _delay_ms(50);
 
-      if (PIN_READ(PINC, PC1) == 0) {
-        counter++;
-        if (counter > 9) {
+      if (PIN_READ(PINC, PC1) == 1) {
+        counter--;sddass[]
+        if (counter > 9) { // fancy stuff
           counter = 0;
         }
         PORTD = segments[counter];
