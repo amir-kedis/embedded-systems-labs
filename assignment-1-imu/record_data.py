@@ -6,8 +6,8 @@ import serial
 
 MAX_MEAS = 200
 AVG_MEAS = 25
-SER_PORT = "COM4"
-SER_BAUD = 115200
+SER_PORT = "/dev/ttyACM0"
+SER_BAUD = 9600
 FILENAME = os.path.join(os.getcwd(), "data_out.txt")
 
 
