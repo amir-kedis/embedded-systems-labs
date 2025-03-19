@@ -128,22 +128,22 @@ def main():
                 )
             )
             data.append([ax, ay, az])
+            # write data to file after each reading
+            List2DelimFile(data, FILENAME, delimiter="\t")
+            data.clear()  # clear data list after writing to file
         elif user == "q":
             # save, then quit
             print("[INFO]: Saving data and exiting...")
-            List2DelimFile(data, FILENAME, delimiter="\t")
             ser.Close()
             print("[INFO]: Done!")
             return
         else:
             print("[ERROR]: '{}' is an unknown input. Terminating!".format(user))
-            List2DelimFile(data, FILENAME, delimiter="\t")
             ser.Close()
             return
 
     # save once max is reached
     print("[WARNING]: Reached max. number of datapoints, saving file...")
-    List2DelimFile(data, FILENAME, delimiter="\t")
     ser.Close()
     print("[INFO]: Done!")
 
