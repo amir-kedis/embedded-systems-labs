@@ -4,7 +4,7 @@
 const int MPU_ADDR = 0x68;      // MPU6050 I2C address (0x69 if AD0 pin is HIGH)
 const float ACC_SCALE = 16384.0; // Scale factor for +/-2g range
 const bool PRINT_TIMESTAMP = true; // Whether to include timestamps in output
-const int SAMPLE_RATE_MS = 10;   // Sample every 10ms (100Hz)
+const int SAMPLE_RATE_MS = 100;   // Sample every 10ms (100Hz)
 
 // Variables for sensor data
 int16_t acc_x, acc_y, acc_z;
@@ -13,7 +13,7 @@ int16_t temperature;
 
 void setup() {
   // Initialize serial communication
-  Serial.begin(115200); // Higher baud rate for faster data transfer
+  Serial.begin(9600); // Higher baud rate for faster data transfer
   
   // Initialize MPU6050
   Wire.begin();

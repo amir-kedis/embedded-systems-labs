@@ -9,7 +9,7 @@ from serial.tools import list_ports
 
 # Configuration
 MAX_MEAS = 200  # Maximum number of measurements
-SER_BAUD = 115200  # Serial baud rate
+SER_BAUD = 9600  # Serial baud rate
 FILENAME = "imu_raw_data.csv"  # Output filename
 RECONNECT_ATTEMPTS = 2  # Number of times to attempt reconnection
 RECONNECT_DELAY = 2  # Seconds to wait between reconnection attempts
@@ -134,7 +134,7 @@ def record_raw_data(ser, duration=10, max_retries=RECONNECT_ATTEMPTS):
                 timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f")[
                     :-3
                 ]
-                reading = (timestamp, values[0], values[1], values[2])
+                reading = (timestamp, values[1], values[2], values[3])
                 readings.append(reading)
 
                 # Save each reading immediately to avoid data loss
