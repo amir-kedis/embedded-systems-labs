@@ -7,7 +7,7 @@ import json
 import os
 
 # Configuration
-INPUT_FILE = "calibration_data_scaled.csv"  # Your input file with scaled data
+INPUT_FILE = "output.csv"  # Your input file with scaled data
 OUTPUT_FILE = "calibration_params.json"     # Output file for calibration parameters
 FIGURE_DIR = "calibration_plots"            # Directory for saving plots
 

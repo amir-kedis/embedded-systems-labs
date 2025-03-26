@@ -1,0 +1,36 @@
+{
+  "raw_data_metrics": {
+    "final_position": {
+      "x": 0.3934784766123726,
+      "y": 0.19247974533635007,
+      "z": -0.35892279663210874
+    },
+    "final_displacement": 0.5663032207785452,
+    "drift_magnitude": 0.5663032207785452,
+    "known_distance": 0.34,
+    "max_displacement": 0.5663032207785452,
+    "max_displacement_error": 0.2263032207785452,
+    "max_displacement_error_percent": 66.55977081721917,
+    "return_error": 0.5663032207785452
+  },
+  "calibrated_data_metrics": {
+    "final_position": {
+      "x": 0.4381788671608367,
+      "y": 0.27612931183199496,
+      "z": -0.28262316714901164
+    },
+    "final_displacement": 0.5900203141320673,
+    "drift_magnitude": 0.5900203141320673,
+    "known_distance": 0.34,
+    "max_displacement": 0.5900203141320673,
+    "max_displacement_error": 0.2500203141320673,
+    "max_displacement_error_percent": 73.53538650943156,
+    "return_error": 0.5900203141320673
+  },
+  "improvement": {
+    "return_error_reduction": -0.023717093353522123,
+    "return_error_reduction_percent": -4.188055529847811,
+    "max_displacement_error_reduction": -0.023717093353522123,
+    "max_displacement_error_reduction_percent": -10.480227931325418
+  }
+}
