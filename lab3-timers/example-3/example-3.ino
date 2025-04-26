@@ -28,7 +28,7 @@ const uint8_t segments[] = {
 };
 
 #define TARGET_OVERFLOW_COUNT 30
-#define TARGEST_OFFSET 128
+#define TARGET_OFFSET 128
 
 volatile uint8_t tot_overflow;
 
@@ -65,10 +65,10 @@ int main(void){
       Serial.println("Overflow done");
 
       // offset
-      OCR2A = TARGEST_OFFSET;
+      OCR2A = TARGET_OFFSET;
     }
 
-    if (tot_overflow > 30 && TCNT2 > TARGEST_OFFSET){
+    if (tot_overflow > 30 && TCNT2 > TARGET_OFFSET){
       PORTC ^= (1 << PC0);
       tot_overflow = 0;
     }
