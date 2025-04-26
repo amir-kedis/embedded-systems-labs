@@ -1,11 +1,9 @@
 <div align= >
 
-# <img align=center width=75px height=75px src="https://media2.giphy.com/media/jPYkx3b1R8X7lLappW/giphy.gif?cid=ecf05e47zkbwgfsujumrocqtcbmhye26zlysngf74qk8adib&ep=v1_stickers_search&rid=giphy.gif&ct=s"> Embedded Systems Labs
-
-
+# <img align=center width=75px height=75px src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHRhNmlibzNnN3JlaXMwODNncGF3b3ZocmoweHhjNWhkODdsdW9jNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/8Lq2QCUhC4ZN2O2S7f/giphy.gif"> Embedded Systems Labs
 </div>
 <div align="center">
-   <img align="center" height=400px src="https://cdn.dribbble.com/users/1371241/screenshots/6829039/07-wave.gif" alt="logo">
+   <img align="center" height=400px src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExajZzY2s3d2FpczVvdDJsdWM3bmswaWJod3N3NTdmaW9lbmhtMm5xbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jKYQYm26ViwB3ZFmwu/giphy.gif" alt="logo">
 
 </div>
 
@@ -32,17 +30,17 @@
 ## <img align="center"  height =50px src="https://user-images.githubusercontent.com/71986226/154076110-1233d7a8-92c2-4d79-82c1-30e278aa518a.gif"> Overview
 <br>
 <ul> 
-<li>This repository contains solutions for Embedded Systems laboratory assignments</li>
-<li>The project includes 5 labs and 1 assignment covering various embedded systems concepts:</li>
+<li>This repository contains solutions for Embedded Systems Labs and IMU Assignment</li>
+<li>The project includes 5 labs and 1 assignment covering embedded systems concepts:</li>
 <ul>
 <li><a href="#lab1">Lab 1: I/O Operations</a></li>
 <li><a href="#lab2">Lab 2: Interrupt Handling</a></li>
 <li><a href="#lab3">Lab 3: Timer Programming</a></li>
 <li><a href="#lab4">Lab 4: Analog-to-Digital Conversion</a></li>
 <li><a href="#lab5">Lab 5: SPI Communication</a></li>
-<li><a href="#assignment">Assignment: IMU Integration</a></li>
+<li><a href="#assignment">Assignment: IMU Integration (Calibration, denoising)</a></li>
 </ul>
-<li>Built using embedded C and various microcontroller peripherals</li>
+<li>Built using embedded C and microcontroller peripherals</li>
 </ul>
 <hr style="background-color: #4b4c60"></hr>
 
@@ -82,7 +80,7 @@
 
 <a id = "lab4"></a>
 
-### <img align= "center" width=60px src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3dxeHRrZGUzZW9kZzB2aDVjZjlqaG04OTFucm9oZDA5azBlODYxYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Lrge8fr6HFydZqahbw/giphy.gif"> Lab 4: ADC
+### <img align= "center" width=60px src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmZmZ2xqbWYzeXIzaHF5bmplM2hneWU4dnI1dnlob3dwMmp0aG5wciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/EyT7PztEE8N4hDmHL2/giphy.gif"> Lab 4: ADC
 <ul>
 <li>Analog-to-Digital conversion setup</li>
 <li>Sensor data acquisition</li>
@@ -92,7 +90,7 @@
 
 <a id = "lab5"></a>
 
-### <img align= "center" width=60px src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3dxeHRrZGUzZW9kZzB2aDVjZjlqaG04OTFucm9oZDA5azBlODYxYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Lrge8fr6HFydZqahbw/giphy.gif"> Lab 5: SPI
+### <img align= "center" width=60px src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnJsMGVmeHM5c2llZ3hkbHhpNDMwanJucWh0Ym9yanRwYWx0MnB5NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/5Ns14GiQ0LmHYoEisH/giphy.gif"> Lab 5: SPI
 <ul>
 <li>SPI communication protocol implementation</li>
 <li>Master-Slave configuration</li>
@@ -102,7 +100,7 @@
 
 <a id = "assignment"></a>
 
-## <img align= "center" width=60px src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3dxeHRrZGUzZW9kZzB2aDVjZjlqaG04OTFucm9oZDA5azBlODYxYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Lrge8fr6HFydZqahbw/giphy.gif"> Assignment: IMU Integration
+## <img align= "center" width=60px src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3NubTI5bm0xZHcwcnNsczQxeWxhMDBhc2s1M3RqZDdla3VjbmpwZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/KgbZY915BD64Kx5fnb/giphy.gif"> Assignment: IMU Integration
 <ul>
 <li>Inertial Measurement Unit (IMU) integration</li>
 <li>Sensor data processing and fusion</li>
@@ -117,7 +115,11 @@
 
 <table  >
   <tr>
-      <td align="center"><a href="https://github.com/amir"><img src="https://avatars.githubusercontent.com/u/your-github-id?v=4" width="150px;" alt=""/><br /><sub><b>Amir</b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/amir-kedis"><img src="https://avatars.githubusercontent.com/amir-kedis?v=4" width="150px;" alt=""/><br /><sub><b>Amir Kedis (labs, assignment)</b></sub></a><br /></td>
+     <td align="center"><a href="https://github.com/g-magdy"><img src="https://avatars.githubusercontent.com/g-magdy?v=4" width="150px;" alt=""/><br /><sub><b>George Magdy (labs, assignment)</b></sub></a><br /></td>
+     <td align="center"><a href="https://github.com/AbdelruhmanSamy"><img src="https://avatars.githubusercontent.com/AbdelruhmanSamy?v=4" width="150px;" alt=""/><br /><sub><b>Abdelruhman Samy (assignment)</b></sub></a><br /></td>
+     <td align="center"><a href="https://github.com/Abdulrahman-Mostafa10"><img src="https://avatars.githubusercontent.com/Abdulrahman-Mostafa10?v=4" width="150px;" alt=""/><br /><sub><b>Abdulrahman Mostafa(assignment)</b></sub></a><br /></td>
+     <td align="center"><a href="https://github.com/akramhany"><img src="https://avatars.githubusercontent.com/akramhany?v=4" width="150px;" alt=""/><br /><sub><b>Akram Hany (assignment)</b></sub></a><br /></td>
   </tr>
 </table>
 
