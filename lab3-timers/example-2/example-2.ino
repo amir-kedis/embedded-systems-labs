@@ -1,18 +1,16 @@
 #ifndef MACROS_H
 #define MACROS_H
 
-#define PIN_SET(REG, PIN)       REG |= (1 << PIN)
-#define PIN_UNSET(REG, PIN)     REG &= ~(1 << PIN)
-#define PIN_TOGGLE(REG, PIN)    REG ^= (1 << PIN)
-#define PIN_READ(REG, PIN)      ((REG & (1 << PIN)) >> PIN)
+#define PIN_SET(REG, PIN) REG |= (1 << PIN)
+#define PIN_UNSET(REG, PIN) REG &= ~(1 << PIN)
+#define PIN_TOGGLE(REG, PIN) REG ^= (1 << PIN)
+#define PIN_READ(REG, PIN) ((REG & (1 << PIN)) >> PIN)
 
 #endif
-
 
 #include <avr/io.h>
 #include <util/delay.h>
 #include <avr/interrupt.h>
-
 
 const uint8_t segments[] = {
     0b00111111, // 0
@@ -37,15 +35,17 @@ ISR(TIMER2_OVF_vect)
   tot_overflow++;
 }
 
-void timer2_init(){
-  TCCR2B |=  (1 << CS22) | ( 1 << CS21);
+void timer2_init()
+{
+  TCCR2B |= (1 << CS22) | (1 << CS21);
   TCNT2 = 0;
   TIMSK2 |= (1 << TOIE2);
   sei();
   tot_overflow = 0;
 }
 
-int main(void){
+int main(void)
+{
   timer2_init();
   Serial.begin(9600);
   int counter = 0;
@@ -54,15 +54,19 @@ int main(void){
   DDRC = 0xFF;
   PORTC = 0xFF;
 
-  while(1) {
-    if (tot_overflow >= TARGET_OVERFLOW_COUNT){
-      if (TCNT2 >= TARGEST_OFFSET){
+  while (1)
+  {
+    if (tot_overflow >= TARGET_OVERFLOW_COUNT)
+    {
+      if (TCNT2 >= TARGEST_OFFSET)
+      {
         TCNT2 = 0;
         Serial.println("Counter: ");
         Serial.println(counter);
 
         counter += 1;
-        if (counter > 9){
+        if (counter > 9)
+        {
           counter = 0;
         }
 
@@ -74,6 +78,3 @@ int main(void){
   }
   return 0;
 }
-
-
-
