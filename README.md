@@ -11,7 +11,7 @@
     <br> 
 </p>
 
-## <img align= center width=50px height=50px src="https://thumbs.gfycat.com/HeftyDescriptiveChimneyswift-size_restricted.gif"> Table of Contents
+## <img align= "center" width=50px src="https://media4.giphy.com/media/xN3IbsXsm1pOtGOkx2/giphy.gif?cid=ecf05e47lnbd6mvq1joc1wjqtdh7aonlxeiin9t26d7qgrh1&ep=v1_stickers_search&rid=giphy.gif&ct=s"> Table of Contents
 
 - <a href ="#about"> 📙 Overview</a>
 - <a href ="#labs"> 📝 Labs</a>
