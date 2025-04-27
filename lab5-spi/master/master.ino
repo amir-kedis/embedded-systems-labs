@@ -10,7 +10,7 @@
 
 void init_spi_master(void) {
   DDRB  |= (1 << MOSI) | (1 << SCK) | (1 << SS);
-  DDRB  &= (1 << MISO);
+  DDRB  &= ~(1 << MISO);
   PORTB |= (1 << SS);
   SPCR   = (1 << SPE) | (1 << MSTR) | (1 << SPR0);
 }
