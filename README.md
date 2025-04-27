@@ -113,7 +113,7 @@
 <a id = "lab-exam"></a>
 ## <img align= "center" width=60px src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3NubTI5bm0xZHcwcnNsczQxeWxhMDBhc2s1M3RqZDdla3VjbmpwZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/KgbZY915BD64Kx5fnb/giphy.gif"> Lab Exam Solution
 <ul>
-<li>View <a href="lab-exam">Assignment</a></li>
+<li>View <a href="lab-exam">Lab Exam with solution</a></li>
 </ul>
 
 
