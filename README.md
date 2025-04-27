@@ -21,6 +21,7 @@
   - <a href ="#lab4"> 🖖 Lab 4: ADC</a>
   - <a href ="#lab5"> 🖐️ Lab 5: SPI</a>
 - <a href ="#assignment"> 📚 Assignment: IMU</a>
+- <a href ="#lab-exam"> 📚 LAB EXAM</a>
 - <a href ="#contributors"> ✨ Contributors</a>
 - <a href ="#license"> 🔒 License</a>
 <hr style="background-color: #4b4c60"></hr>
@@ -44,11 +45,11 @@
 </ul>
 <hr style="background-color: #4b4c60"></hr>
 
-<a id ="labs"></a>
+<a id="labs"></a>
 
 ## <img align= "center" width=50px src="https://media4.giphy.com/media/xN3IbsXsm1pOtGOkx2/giphy.gif?cid=ecf05e47lnbd6mvq1joc1wjqtdh7aonlxeiin9t26d7qgrh1&ep=v1_stickers_search&rid=giphy.gif&ct=s"> Labs 
 
-<a id = "lab1"></a>
+<a id="lab1"></a>
 
 ### <img align= "center" width=60px src="https://media0.giphy.com/media/ksNc3DpgrXoVbfm55o/giphy.gif?cid=ecf05e47xx37ikbgcba0srqvlw511mrn6z2g65a20hc3tn00&ep=v1_stickers_search&rid=giphy.gif&ct=s"> Lab 1: I/O Operations
 <ul>
@@ -58,7 +59,7 @@
 <li>View <a href="lab1-io">Lab 1</a></li>
 </ul>
 
-<a id = "lab2"></a>
+<a id="lab2"></a>
 
 ### <img align= "center" width=60px src="https://media2.giphy.com/media/3o3IJrFTTV6Vf8Mfgy/giphy.gif?cid=ecf05e471k7i9700r3t25juhe42xfdkg4qzmfd6wdgoupt6v&ep=v1_stickers_search&rid=giphy.gif&ct=s"> Lab 2: Interrupts
 <ul>
@@ -107,6 +108,14 @@
 <li>Real-time motion tracking</li>
 <li>View <a href="assignment-1-imu">Assignment</a></li>
 </ul>
+
+
+<a id = "lab-exam"></a>
+## <img align= "center" width=60px src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3NubTI5bm0xZHcwcnNsczQxeWxhMDBhc2s1M3RqZDdla3VjbmpwZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/KgbZY915BD64Kx5fnb/giphy.gif"> Lab Exam Solution
+<ul>
+<li>View <a href="lab-exam">Assignment</a></li>
+</ul>
+
 
 <hr style="background-color: #4b4c60"></hr>
 <a id ="contributors"></a>
